@@ -1,0 +1,14 @@
+Create-react-app will creates the following folders in the main folder called "hello-react"
+
+1 - node_modules
+  where there are installed all the packages we need to launch our application, 
+  they are also write in the file package-lock.json
+  and their version are in the file package.json 
+
+2 - public 
+  here there is the file that the browser will read to load the page,
+  only the files in public folder can be used in the file public/index.html
+  
+3 - src 
+  we will insert here folders and files in Javascript 
+  because the file src/index.js is connected to the public/index.html
