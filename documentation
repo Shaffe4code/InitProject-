@@ -1,0 +1,22 @@
+Creating application web using REACT and CREATE-REACT-APP
+
+
+1 - step
+open Terminal on computer and write:
+
+  npm install react
+  
+2 - step
+Install "CREATE REACT APP" for creating the React folder in your computer
+open Terminal on computer and write:
+
+  npm install -g create-react-app
+
+3 - step 
+Then for create the React folder using CREATE-REACT-APP write on Terminal:
+
+  create-react-app hello-react
+  
+  cd hello-react
+  
+  npm start
