@@ -1,2 +1,2 @@
 # InitProject-
-Creation of a project step-by-step for creating application mobile and web using react and react-native
+Creation of a project step-by-step for creating application web and mobile using react and react-native
