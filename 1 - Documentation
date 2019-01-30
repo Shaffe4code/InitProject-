@@ -15,8 +15,8 @@ open Terminal on computer and write:
 3 - step 
 Then for create the React folder using CREATE-REACT-APP write on Terminal:
 
-  create-react-app hello-react
+  create-react-app init-project
   
-  cd hello-react
+  cd init-project
   
   npm start
