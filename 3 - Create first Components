@@ -1,0 +1,72 @@
+1 - CREATE THE FOLDER "Components" in the folder "src"
+//then create 2 files:
+  a. documentation.js
+  b. overview.js
+
+
+2 - IMPORT REACT AND CSS at the top of both files:
+  import React, { Component } from 'react';
+  import '../App.css'
+
+
+3 - CREATE THE CLASS COMPONENT
+  class Documentation extends Component {
+    render() {
+      return (
+      
+        // *there we'll insert what we want to see in the component
+      
+      )
+    }
+  }
+
+
+4 - * INSERT A SIMPLE DIV WITH A TITLE
+  class Documentation extends Component {
+    render() {
+      return (
+      
+        <div>
+          <h1>Documentation</h1>
+        </div>
+      
+      )
+    }
+  }
+
+
+5 - EXPORT THE CLASS COMPONENT
+//at the end of the file
+  export default Documentation 
+
+
+// Do the same things for the file overview.js
+// and REMEMBER that the files must be in lower case 
+// AND THE CLASS COMPONENT IN UPPER CASE
+
+
+6 - IMPORT THE NEW COMPONENT IN THE FILE App.js
+//at the top of the file 
+//under the import of React and Component
+    import Documentation from './Components/documentation.js';
+    import Overview from './Components/overview.js';
+
+
+7 - INSERT THE COMPONENT IN THE FILE App.js
+// delete all the thing inside the div className="App"
+// and insert:
+  class App extends Component {
+    render() {
+     return (
+      <div className="App">
+        <Documentation />
+        <Overview />
+      </div>
+     );
+    }
+  }
+  
+  
+  
+  
+  Enjoy!
